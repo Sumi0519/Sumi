@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Form</title>
+
+    <script src="form.js"></script>
+
+    <style>
+        .signin-box{
+            width: 100%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="signin-box">
+        <h1>Creative start</h1>
+        <form action="form.js", method="get", onsubmit="submitForm(event)">
+            <input type="text" placeholder="이메일"><br>
+            <input type="password" placeholder="비밀번호">
+            <br><a href="">회원가입</a>
+    </div>
+</body>

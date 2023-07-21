@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Creative start</title>
+        <!-- css -->
+        <!-- class 선택자를 가급적 많이 사용해야하는데 맞게하고있는지 의문이 드는구만 -->
+        <style>
+    
+            .header{
+                font-size: 30px;
+                font-weight: bolder;
+                text-align: center;
+            }
+
+            .bold{
+                font-weight: bolder;
+            }
+
+            ul{
+                font-size: medium;
+                list-style-type: none;
+                font-weight: bolder;
+                text-align: center;
+            }
+
+            li{
+                display: inline-block;
+                margin: 25px;
+            }
+
+            a{
+                text-decoration: none;
+            }
+
+            table{
+                width: 100;
+            }
+
+            td{
+                width: 20%;
+            }
+
+
+            img{
+                width: 180px;
+                height: 200px;
+            }
+            
+            p{
+                display: inline-block;
+            }
+
+            .section{
+                flex:1;
+                padding: 20px;
+                border: 1px solid;
+            }
+
+        </style>
+    </head>
+
+    <body>
+       
+        <!-- header -->
+        <header class="header">Creative start</header>
+        <hr>
+
+        <nav>
+            <ul style="text-align:right">
+                <li style="display: inline;"><a href="">검색</a></li>
+                <li><a href="/login.html">로그인</a></li>
+               </ul>
+           </ul>
+           <ul>
+            <li><a href="">카테고리</a></li>
+            <li><a href="/Layout.html">홈</a></li>
+            <li><a href="">인기</a></li>
+            <li><a href="">신규</a></li>
+            <li><a href=""></a></li>
+        </nav>
+        
+        <!-- main -->
+        <section>
+            <div style="text-align: center;"> <!-- 수정 필요 -->
+                <img src="/img/movie.jpg" alt="영화제작">
+            </div>
+        </section>
+        <section>    
+            <h4>주요 프로젝트</h4>
+            <table>
+                <tr>
+                    <td>
+                        <a href="/project.html"><img src="/img/direct.jpg" alt="제작"><br>[제목]상세내용</a>
+                    </td>
+                    <td>
+                        <a href="/project.html"><img src="/img/dron.jpg" alt="제품"><br>[제목]상세내용</a>
+                    </td>
+                </tr>
+            </table>
+        </section>
+        <section>
+            <h4>상품 판매</h4>
+            <table>
+                <tr>
+                    <td>
+                        <a href="/sales.html"><img src="/img/cushion.jpg" alt="판매"><br>[제품이름]상세내용</a>
+                    </td>
+                </tr>
+            </table>
+        </section>
+        <section>
+            <!-- 제목을 이미지 옆 위로 옮기고 싶은데 왜 안돼는거냐!! -->
+            <h4>크리에이터 인터뷰 <a href="" style="font-size: 1px;">더보기</a></h4>
+            <table>
+                <tr>
+                    <td>
+                        <a href=""><img src="/img/interview.jpg" alt="인터뷰">[제목]</a>
+                    </td>
+                </tr>
+            </table>
+        </section>
+        <section class="section"><!-- 어떻게 해야할지 더 고민.... -->
+            <article>
+                <h4>뉴스 <a href="" style="font-size: 1px;">더보기</a></h4>
+                
+                <a href=""><img src="/img/news.jpg" alt="뉴스">[제목]</a>
+            </article>
+        </section>
+        <hr>
+        <!-- footer -->
+        <p>Creative start</p> <a href="">이용안내</a> <a href="">고객지원 문의</a>
+
+    </body>
+</html
