@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>회원가입페이지</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/IAMAPLAYER.woff2">
+
+        <style>
+            .header_box{
+                display: flex;
+                align-items: center;
+                height: 100px;
+                margin: 1px;
+                padding: 0px 16px;
+            }
+
+            .title a{
+                font-family: 'IAMAPLAYER', serif;
+                font-weight: bolder;
+                font-size: 25px;
+                color: blueviolet;
+            }
+
+            a{
+                text-decoration: none;
+            }
+
+            .join_up{
+                width: 100%;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                text-align: center;
+                color: blueviolet;
+
+            }
+        </style>
+
+        <script src="form1.js"></script>
+    </head>
+    <body>
+        
+        <header>
+            <div class="header_box">
+                <div class="title">
+                    <a href="/layout2.html">Creative start</a>
+                </div>
+            </div>
+            
+            <div class="join_up">   
+                <form action="form1.js", method="get", onsubmit="submitForm(event)">
+                    <input type="text" placeholder="이름" name="username"><br>
+                    <input type="text" placeholder="이메일" name="email"><br>
+                    <input type="password" placeholder="비밀번호" name="password"><br>
+                    <input type="password" placeholder="비밀번호 확인" name="password"><br>
+                    <input type="submit" value="전송">
+                </form>
+            </div>
+        </header>
+    </body>
+</html>

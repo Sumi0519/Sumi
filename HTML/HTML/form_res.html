@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Form Result</title>
+
+    <script>
+        var urlParams = new URLSearchParams(window.location.search);
+        var username = urlParams.get("username")
+        var password = urlParams.get("password")
+        var email =urlParams.get("email")
+
+        window.onload = function() {
+            document.getElementById('username').innerHTML = username;
+            document.getElementById('password').innerHTML = password;
+            document.getElementById('email').innerHTML = email;
+
+        }
+
+    </script>
+</head>
+
+<body>
+    <p>Name: <span id="username"></span></p>
+    <p>Password: <span id="password"></span></p>
+    <p>Email: <span id="email"></span></p>
+</body>
+</html>
